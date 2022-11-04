@@ -26,6 +26,7 @@ header{
     background-color: var(--corciano);
     border: 1px solid rgba(0, 0, 0, 0.527);
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.406);
+    
 }
 header h1{
     font-weight: 700;
