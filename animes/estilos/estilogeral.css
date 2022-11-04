@@ -7,7 +7,7 @@
 
 
 :root{
-    --coramareloesc: #8f6a09;
+    --coramareloesc: #c18e0d;
     --coramarelocla: #dfa43899;
     --corciano: #23d8db;
     --corvermelhoesc:#762720;
@@ -19,6 +19,7 @@ body{
     font-family: 'Comfortaa';
 }
 header{
+    height: 334px;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
@@ -26,17 +27,68 @@ header{
     background-color: var(--corciano);
     border: 1px solid rgba(0, 0, 0, 0.527);
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.406);
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
-header h1{
+.textoheader{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
     font-weight: 700;
     color: var(--corvermelhoesc);
+    border-radius: 5px;
+    
+  
 }
-header p{
-    color: var(--corvermelhoesc);
+header h1{
+    padding: 20px;
 }
 header img{
+    position: relative;
+    top: 35px;
+    right: 350px;
     border-radius: 50%;
     width: 250px;
     height: 270px;
+}
+
+main{
+    background-color: #23d8db;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.539);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.406);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+main div{
+    background-color: var(--coramareloesc);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.717);
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main div a{
+    text-decoration: none;
+    color: var(--corvermelhoesc);
+    font-size: larger;
+    font-weight: 700;
+}
+main img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
 }
