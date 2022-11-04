@@ -92,3 +92,13 @@ main img {
     width: 120px;
     height: 120px;
 }
+footer{
+    width: 100%;
+    height: 25px;
+    color: var(--corvermelhocla);
+    background-color: var(--corvermelhoesc);
+    text-align: center;
+}
+footer p{
+    padding: 2px;
+}
